@@ -43,7 +43,7 @@ namespace Tests
             {
                 driver.FindElement(By.Id(@"admin_user_login")).SendKeys("zzhelev");
 
-                driver.FindElement(By.Id(@"admin_user_password")).SendKeys("Myjesusmercy1}");
+                driver.FindElement(By.Id(@"admin_user_password")).SendKeys("************}");
 
                 driver.FindElement(By.CssSelector(@"#new_admin_user > div > div:nth-child(3) > input")).Click();
             }
